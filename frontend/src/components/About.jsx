@@ -60,8 +60,9 @@ const About = () => {
             </Card>
 
             <Card className="bg-gradient-to-r from-cyan-500/10 to-pink-500/10 backdrop-blur-lg border-2 border-cyan-500/30 p-6 hover:scale-105 transition-all duration-300">
-              <p className="text-center text-white text-lg font-medium">
-                💫 A construir o futuro com código e criatividade!
+              <p className="text-center text-white text-lg font-medium flex items-center justify-center gap-2">
+                <Sparkles className="w-5 h-5 text-cyan-400" />
+                A construir o futuro com código e criatividade!
               </p>
             </Card>
           </div>

@@ -52,11 +52,12 @@ export const interests = [
 export const projects = [
   {
     id: 1,
-    title: 'Projeto 1',
-    description: 'Descrição do projeto em breve...',
-    category: 'Web Development',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop',
-    tags: ['HTML', 'CSS', 'JavaScript']
+    title: 'Animal Evolution',
+    description: 'Jogo interativo de evolução de animais. Caça comida, evita perigos e evolui o teu animal através de diferentes fases!',
+    category: 'Game Development',
+    image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/zlxb28dx_Captura%20de%20ecra%CC%83%202026-02-14%2C%20a%CC%80s%2011.15.02.png',
+    tags: ['JavaScript', 'Game Design', 'Interactive'],
+    link: 'https://animalevolution.lovable.app'
   },
   {
     id: 2,

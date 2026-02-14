@@ -58,46 +58,6 @@ export const projects = [
     image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/zlxb28dx_Captura%20de%20ecra%CC%83%202026-02-14%2C%20a%CC%80s%2011.15.02.png',
     tags: ['JavaScript', 'Game Design', 'Interactive'],
     link: 'https://animalevolution.lovable.app'
-  },
-  {
-    id: 2,
-    title: 'Projeto 2',
-    description: 'Descrição do projeto em breve...',
-    category: 'Game Development',
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=300&fit=crop',
-    tags: ['Roblox', 'Lua', 'Design']
-  },
-  {
-    id: 3,
-    title: 'Projeto 3',
-    description: 'Descrição do projeto em breve...',
-    category: 'Web Development',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop',
-    tags: ['React', 'Node.js']
-  },
-  {
-    id: 4,
-    title: 'Projeto 4',
-    description: 'Descrição do projeto em breve...',
-    category: 'Design',
-    image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=300&fit=crop',
-    tags: ['UI/UX', 'Figma']
-  },
-  {
-    id: 5,
-    title: 'Projeto 5',
-    description: 'Descrição do projeto em breve...',
-    category: 'Programming',
-    image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=300&fit=crop',
-    tags: ['Python', 'Automation']
-  },
-  {
-    id: 6,
-    title: 'Projeto 6',
-    description: 'Descrição do projeto em breve...',
-    category: 'Game Development',
-    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop',
-    tags: ['Unity', 'C#']
   }
 ];
 

@@ -28,7 +28,7 @@ const Portfolio = () => {
             const shadowColors = ['hover:shadow-cyan-500/20', 'hover:shadow-pink-500/20'];
             const colorIndex = index % 2;
 
-            return (
+            const ProjectCard = (
               <Card
                 key={project.id}
                 className={`bg-[#1a1f3a]/50 backdrop-blur-lg ${borderColors[colorIndex]} ${hoverColors[colorIndex]} overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl ${shadowColors[colorIndex]} group cursor-pointer`}
@@ -41,9 +41,11 @@ const Portfolio = () => {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1a1f3a] to-transparent opacity-60"></div>
-                  <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                    <ExternalLink className="w-5 h-5 text-white" />
-                  </div>
+                  {project.link && (
+                    <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                      <ExternalLink className="w-5 h-5 text-white" />
+                    </div>
+                  )}
                 </div>
 
                 {/* Project Info */}
@@ -76,6 +78,21 @@ const Portfolio = () => {
                   </div>
                 </div>
               </Card>
+            );
+
+            // Wrap in link if project has a link
+            return project.link ? (
+              <a
+                key={project.id}
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                {ProjectCard}
+              </a>
+            ) : (
+              ProjectCard
             );
           })}
         </div>

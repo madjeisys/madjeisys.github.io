@@ -38,7 +38,7 @@ export const interests = [
   {
     id: 5,
     title: 'Amigos',
-    description: 'Passar tempo com a minha crew',
+    description: 'Passar tempo com os meus amigos',
     icon: 'Users'
   },
   {

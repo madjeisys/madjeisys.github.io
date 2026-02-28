@@ -76,6 +76,15 @@ export const projects = [
     image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/f7cyypr0_Captura%20de%20ecra%CC%83%202026-02-28%2C%20a%CC%80s%2010.55.50.png',
     tags: ['Python', 'MakeCode', 'Pixel Art', 'Arcade'],
     link: 'https://arcade.makecode.com/S06400-75174-82952-47891'
+  },
+  {
+    id: 4,
+    title: 'Platform Adventure',
+    description: 'Jogo de plataformas criado com programação em blocos no MakeCode Arcade. Salta entre plataformas e evita obstáculos neste clássico pixel art!',
+    category: 'Game Development',
+    image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/8irdfn8s_Captura%20de%20ecra%CC%83%202026-02-28%2C%20a%CC%80s%2011.03.52.png',
+    tags: ['Blocos', 'MakeCode', 'Platformer', 'Arcade'],
+    link: 'https://arcade.makecode.com/S56978-16887-86314-29405'
   }
 ];
 

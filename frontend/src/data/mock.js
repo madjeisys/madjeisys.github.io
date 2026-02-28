@@ -67,6 +67,15 @@ export const projects = [
     image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/czo7knr6_Captura%20de%20ecra%CC%83%202026-02-28%2C%20a%CC%80s%2010.45.34.png',
     tags: ['HTML', 'CSS', 'JavaScript', 'Design'],
     link: 'https://naturezaemdia.netlify.app/'
+  },
+  {
+    id: 3,
+    title: 'Space Pixel Game',
+    description: 'Jogo arcade com gráficos pixel art criado no MakeCode Arcade. Aventura espacial com personagens coloridos e gameplay divertido!',
+    category: 'Game Development',
+    image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/f7cyypr0_Captura%20de%20ecra%CC%83%202026-02-28%2C%20a%CC%80s%2010.55.50.png',
+    tags: ['Python', 'MakeCode', 'Pixel Art', 'Arcade'],
+    link: 'https://arcade.makecode.com/S06400-75174-82952-47891'
   }
 ];
 

@@ -1,11 +1,5 @@
 import React from 'react';
-import { Github, MessageCircle, Mail, Heart } from 'lucide-react';
-
-const iconMap = {
-  Github: Github,
-  MessageCircle: MessageCircle,
-  Mail: Mail
-};
+import { Github, Heart } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

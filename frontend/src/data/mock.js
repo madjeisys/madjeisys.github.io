@@ -58,6 +58,15 @@ export const projects = [
     image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/96xxrl5q_Captura%20de%20ecra%CC%83%202026-02-28%2C%20a%CC%80s%2010.43.33.png',
     tags: ['JavaScript', 'AI', 'Lovable', 'Game Design'],
     link: 'https://animalevolution.lovable.app'
+  },
+  {
+    id: 2,
+    title: 'Natureza em Dia',
+    description: 'Aplicação web educativa sobre as estações do ano em Portugal e frutas sazonais. Mostra a estação atual, frutas da época e calendário interativo.',
+    category: 'Web Development',
+    image: 'https://customer-assets.emergentagent.com/job_madejiq-portfolio/artifacts/czo7knr6_Captura%20de%20ecra%CC%83%202026-02-28%2C%20a%CC%80s%2010.45.34.png',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Design'],
+    link: 'https://naturezaemdia.netlify.app/'
   }
 ];
 
